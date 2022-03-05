@@ -4,13 +4,14 @@
       <div class="col col-12">
         <div class="footer-top">
           <h2 class="logo-title">
-            <a href="{{site.baseurl}}/" class="logo-text">Galada</a>
+            <a href="{{site.baseurl}}/" class="logo-text">Xaler</a>
           </h2>
           <div class="top"><i class="ion ion-ios-arrow-up"></i></div>
         </div>
         <div class="footer-bottom">
           <div class="copyright">
-            <p>&copy; {{site.time | date: '%Y'}} Crafted & Designed by <a href="https://github.com/artemsheludko">Artem Sheludko</a></p>
+            <p>&copy; {{site.time | date: '%Y'}} Al usar este sitio, usted acepta nuestros términos de uso y nuestra política de privacidad </p>
+            <p> <a href="https://xaler17.github.io/blog"> Blog</a></p>
           </div>
           <div class="footer-social">
             <ul class="list-reset">
@@ -18,16 +19,28 @@
               <li><a href="{{ site.facebook }}">Facebook</a></li>
               {% else %} {% endif %}
 
-              {% if site.twitter %}
-              <li><a href="{{ site.twitter }}">Twitter</a></li>
-              {% else %} {% endif %}
-
               {% if site.instagram %}
               <li><a href="{{ site.instagram }}">Instagram</a></li>
               {% else %} {% endif %}
 
               {% if site.pinterest %}
-              <li><a href="{{ site.pinterest }}">Pinterest</a></li>
+              <li><a href="{{ site.pinterest }}">Youtube</a></li>
+              {% else %} {% endif %}
+
+              {% if site.pinterest %}
+              <li><a href="{{ site.pinterest }}">Discord</a></li>
+              {% else %} {% endif %}
+
+              {% if site.pinterest %}
+              <li><a href="{{ site.pinterest }}">Tik Tok</a></li>
+              {% else %} {% endif %}
+
+              {% if site.pinterest %}
+              <li><a href="{{ site.pinterest }}">Twich</a></li>
+              {% else %} {% endif %}
+
+              {% if site.twitter %}
+              <li><a href="{{ site.twitter }}">Twitter</a></li>
               {% else %} {% endif %}
             </ul>
           </div>
