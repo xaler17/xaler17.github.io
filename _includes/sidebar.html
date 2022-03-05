@@ -24,7 +24,7 @@
   {% endif %}
 
   <div class="widget widget-social">
-    <h3 class="widget-title">Subscribe & Follow</h3>
+    <h3 class="widget-title">Suscríbete y Sígueme</h3>
     <ul class="social-profiles list-reset">
       {% if site.facebook %}
       <li class="social-profiles-item">
@@ -44,11 +44,18 @@
       </li>
       {% else %} {% endif %}
 
-      {% if site.pinterest %}
+      {% if site.youtube %}
       <li class="social-profiles-item">
-        <a href="{{ site.pinterest }}" class="social-profiles-link"><i class="ion ion-logo-pinterest"></i></a>
+        <a href="{{ site.youtube }}" class="social-profiles-link"><i class="ion ion:logo-youtube"></i></a>
       </li>
       {% else %} {% endif %}
+
+      {% if site.tiktok %}
+      <li class="social-profiles-item">
+        <a href="{{ site.tiktok }}" class="social-profiles-link"><i class="ion ion:logo-tiktok"></i></a>
+      </li>
+      {% else %} {% endif %}
+
     </ul>
   </div>
 
@@ -71,10 +78,23 @@
 
   {% if site.instafeed == true %}
   <div class="widget widget-instagram">
-    <h3 class="widget-title">Instagram</h3>
+    <h3 class="widget-title">Instagram Sidebar</h3>
     <div class="instagram-box">
       <ul id="instafeed" class="instagram-grid list-reset clearfix"></ul>
       <a class="instagram-prof" href="#">&#64;UserName</a>
+    </div>
+  </div>
+  {% endif %}
+
+
+  {% if site.instafeed == true %}
+  <div class="widget widget-facebook">
+    <h3 class="widget-title">Facebook Sidebar</h3>
+    <div class="fb-page" data-href="https://www.facebook.com/PrensadeHuacho/" 
+      data-tabs="timeline" data-width="180" data-height="" data-small-header="false" 
+      data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+      <blockquote cite="https://www.facebook.com/PrensadeHuacho/" class="fb-xfbml-parse-ignore">
+      <a href="https://www.facebook.com/PrensadeHuacho/">Prensa Al Día</a></blockquote>
     </div>
   </div>
   {% endif %}
