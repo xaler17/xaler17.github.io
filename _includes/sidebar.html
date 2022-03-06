@@ -89,23 +89,33 @@
 
   {% if site.instafeed == true %}
   <div class="widget widget-facebook">
-    <h3 class="widget-title">Facebook Sidebar2</h3>
-    <!-- your other form fields go here -->
-    <form action="https://formspree.io/f/xayvjplw" method="POST">
-    <label>
-      Your email:
-      <input type="email" name="email">
-    </label>
-    <label>
-      Your message:
-      <textarea name="message"></textarea>
-    </label>
-    <button type="submit">Send</button>
-  </form>
-  <!-- your other form fields go here -->
+    <h3 class="widget-title">Contáctame por Email</h3>
+   <!-- your other form fields go here -->
 
+  <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xayvjplw" method="post">
+    
+      <label for="full-name">Nombre</label>
+      <div></div>
+      <input type="text" name="name" id="full-name" required="">
+      <label for="email-address">Correo</label>
+      <div></div>
+      <input type="email" name="_replyto" id="email-address" required="">
+      <label for="message">Mensaje</label>
+      <div></div>
+      <textarea rows="5" name="message" id="message" required=""></textarea>
+      <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+    
+    <input type="submit" value="Enviar">
+  </form>
+
+  <!-- your other form fields go here -->
   </div>
   {% endif %}
+
+
+
+
+
 
   <div class="widget widget-tags">
     <h3 class="widget-title">Tag Cloud</h3>
