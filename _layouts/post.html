@@ -60,6 +60,24 @@ layout: default
 								</a>
 							</li>
 					
+							
+
+							<li class="share-item">
+								<a class="share-fb-messenger" href="fb-messenger://share/?link={{ site.url }}{{ site.baseurl }}{{ page.url }}"
+								onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+								title="Share on Fb-messenger" rel="nofollow">
+									<i class="ion ion-logo-fb-messenger"></i>
+								</a>
+							</li>
+
+							<li class="share-item">
+								<a class="share-whatsapp" href="whatsapp://send?text={{ site.url }}{{ site.baseurl }}{{ page.url }}"
+								onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
+								title="Share on Whatsapp" rel="nofollow">
+									<i class="ion ion-logo-whatsapp"></i>
+								</a>
+							</li>
+
 							<li class="share-item">
 								<a class="share-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ site.baseurl }}{{ page.url }}&title={{ page.title | uri_escape }}&summary={{ page.description | uri_escape }}&source={{ site.title | uri_escape }}"
 								onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
