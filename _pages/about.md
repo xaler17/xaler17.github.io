@@ -10,3 +10,5 @@ Xaler Blog es un proyecto personal nacido en el año 2022, casi finalizando la p
 Es así, que regrese a mis inicios, con lo que me llamo la atención cuando solo tenía 20 años y por diferentes motivos siempre tuve que claudicar. La ciberseguridad.
 
 Esta es una plataforma en línea personal de capacitación en software, tendencias tecnológicas y ciberseguridad que permitirá a la comunidad, a la cual me encuentro en deuda, mejorar sus habilidades en seguridad ofensiva a través de entornos de aprendizaje como TryHackMe, HackTheBox y VulnHub.
+
+
