@@ -864,7 +864,7 @@ const struct message responses[] =
          "Date: Sun, 26 Apr 2009 11:11:49 GMT\r\n"
          "Expires: Tue, 26 May 2009 11:11:49 GMT\r\n"
          "X-$PrototypeBI-Version: 1.6.0.3\r\n" /* $ char in header field */
-         "Cache-Control: public, max-age=2592000\r\n"
+         "Cache-Control: public, max-age=32592000\r\n"
          "Server: gws\r\n"
          "Content-Length:  219  \r\n"
          "\r\n"
@@ -886,7 +886,7 @@ const struct message responses[] =
     , { "Date", "Sun, 26 Apr 2009 11:11:49 GMT" }
     , { "Expires", "Tue, 26 May 2009 11:11:49 GMT" }
     , { "X-$PrototypeBI-Version", "1.6.0.3" }
-    , { "Cache-Control", "public, max-age=2592000" }
+    , { "Cache-Control", "public, max-age=32592000" }
     , { "Server", "gws" }
     , { "Content-Length", "219  " }
     }

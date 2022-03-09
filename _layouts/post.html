@@ -60,15 +60,6 @@ layout: default
 								</a>
 							</li>
 					
-
-							<li class="share-item">
-								<a class="share-whatsapp" href="whatsapp://send?text={{ site.url }}{{ site.baseurl }}{{ page.url }}"
-								onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
-								title="Share on Whatsapp" rel="nofollow">
-									<i class="ion ion-logo-whatsapp"></i>
-								</a>
-							</li>
-
 							<li class="share-item">
 								<a class="share-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ site.baseurl }}{{ page.url }}&title={{ page.title | uri_escape }}&summary={{ page.description | uri_escape }}&source={{ site.title | uri_escape }}"
 								onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
@@ -84,6 +75,15 @@ layout: default
 									<i class="ion ion-logo-pinterest"></i>
 								</a>
 							</li>
+
+							<li class="share-item">
+								<a class="share-whatsapp" href="whatsapp://send?text={{ site.url }}{{ site.baseurl }}{{ page.url }}"
+								onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
+								title="Share on Whatsapp" rel="nofollow">
+									<i class="ion ion-logo-whatsapp"></i>
+								</a>
+							</li>
+							
 						</ul>
 					</div>
 				</div>
@@ -91,12 +91,12 @@ layout: default
 				<div class="post-navigation">
 					{% if page.previous.url %}
 					<a href="{{ site.baseurl }}{{page.previous.url}}" class="prev">
-						<div class="post-nav-arrow"><i class="ion ion-ios-arrow-round-back"></i> Post Anterior</div>
+						<div class="post-nav-arrow"><i class="ion ion-ios-arrow-round-back"></i> Previous Article</div>
 						<h2 class="post-nav-title">{{page.previous.title}}</h2>
 					</a>
 					{% endif %} {% if page.next.url %}
 					<a href="{{ site.baseurl }}{{page.next.url}}" class="next">
-						<div class="post-nav-arrow"> Próximo Post <i class="ion ion-ios-arrow-round-forward"></i></div>
+						<div class="post-nav-arrow">Next Article <i class="ion ion-ios-arrow-round-forward"></i></div>
 						<h2 class="post-nav-title">{{page.next.title}}</h2>
 					</a>
 					{% endif %}
