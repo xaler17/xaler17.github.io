@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sobre Xaler
-image: 08.jpg
+image: 08.webp
 permalink: /about/
 ---
 

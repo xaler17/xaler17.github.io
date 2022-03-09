@@ -2,7 +2,7 @@
 layout: page
 title: Políticas
 permalink: /politicas/
-image: 11.jpg
+image: 11.webp
 ---
 
 Con el ánimo de promover la participación ciudadana y el debate virtual responsable sobre temas que afectan la coyuntura nacional e internacional, nuestra plataforma presenta la Política de Moderación de Comentarios que aplica en su sitio web.
