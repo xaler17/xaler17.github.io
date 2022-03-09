@@ -60,15 +60,6 @@ layout: default
 								</a>
 							</li>
 					
-							
-
-							<li class="share-item">
-								<a class="share-fb-messenger" href="fb-messenger://share/?link={{ site.url }}{{ site.baseurl }}{{ page.url }}"
-								onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
-								title="Share on Fb-messenger" rel="nofollow">
-									<i class="ion ion-logo-fb-messenger"></i>
-								</a>
-							</li>
 
 							<li class="share-item">
 								<a class="share-whatsapp" href="whatsapp://send?text={{ site.url }}{{ site.baseurl }}{{ page.url }}"
@@ -100,12 +91,12 @@ layout: default
 				<div class="post-navigation">
 					{% if page.previous.url %}
 					<a href="{{ site.baseurl }}{{page.previous.url}}" class="prev">
-						<div class="post-nav-arrow"><i class="ion ion-ios-arrow-round-back"></i> Previous Article</div>
+						<div class="post-nav-arrow"><i class="ion ion-ios-arrow-round-back"></i> Post Anterior</div>
 						<h2 class="post-nav-title">{{page.previous.title}}</h2>
 					</a>
 					{% endif %} {% if page.next.url %}
 					<a href="{{ site.baseurl }}{{page.next.url}}" class="next">
-						<div class="post-nav-arrow">Next Article <i class="ion ion-ios-arrow-round-forward"></i></div>
+						<div class="post-nav-arrow"> Próximo Post <i class="ion ion-ios-arrow-round-forward"></i></div>
 						<h2 class="post-nav-title">{{page.next.title}}</h2>
 					</a>
 					{% endif %}
